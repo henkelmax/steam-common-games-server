@@ -1,0 +1,8 @@
+{
+  "name": "steam-common-games-server",
+  "description": "",
+  "repository": "git@github.com:henkelmax/steam-common-games-server.git",
+  "logo": "",
+  "keywords": ["node", "express", "heroku", "steam"],
+  "image": "heroku/nodejs"
+}

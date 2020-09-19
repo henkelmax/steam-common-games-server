@@ -1,0 +1,15 @@
+{
+  "name": "steam-common-games-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:henkelmax/steam-common-games-server.git",
+  "author": "Max Henkel <mh@maxhenkel.de>",
+  "license": "All Rights Reserved",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
