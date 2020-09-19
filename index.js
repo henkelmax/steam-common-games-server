@@ -5,7 +5,7 @@ const querystring = require('querystring')
 
 const PORT = process.env.PORT || 5000
 const API_KEY = process.env.API_KEY || ''
-const CORS_ORIGIN = process.env.CORS_ORIGIN || 'https://henkelmax.github.io/steam-common-games/'
+const CORS_ORIGIN = process.env.CORS_ORIGIN || 'https://henkelmax.github.io'
 
 const app = express()
 app.use(cors({
