@@ -5,9 +5,13 @@ const querystring = require('querystring')
 
 const PORT = process.env.PORT || 5000
 const API_KEY = process.env.API_KEY || ''
+const CORS_ORIGIN = process.env.CORS_ORIGIN || 'https://henkelmax.github.io/'
 
 const app = express()
-app.use(cors())
+app.use(cors({
+    origin: CORS_ORIGIN,
+    optionsSuccessStatus: 200
+}))
 
 app.get('*', (req, res) => {
     req.query.key = API_KEY
