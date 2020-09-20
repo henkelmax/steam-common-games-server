@@ -21,7 +21,7 @@ CORS_ORIGIN=*
 yarn install
 ```
 
-### Running the server
+### Running the Server
 
 ``` sh
 node index.js
