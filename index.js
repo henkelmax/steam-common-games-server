@@ -3,6 +3,8 @@ const cors = require('cors')
 const http = require('https')
 const querystring = require('querystring')
 
+require('dotenv').config()
+
 const PORT = process.env.PORT || 5000
 const API_KEY = process.env.API_KEY || ''
 const CORS_ORIGIN = process.env.CORS_ORIGIN || 'https://henkelmax.github.io'
